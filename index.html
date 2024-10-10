@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MIT-CORER CSE</title>
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/MIT_CORER_LOGO_PNG.png" alt="MIT-CORER Logo">
+        </div>
+        <div class="header-contents">
+            <form onsubmit="event.preventDefault();" role="search" class="search-form">
+                <input id="search" type="search" placeholder="Search..." class="search-input" />
+                <button type="submit" class="search-button">Go</button>
+            </form>
+
+            <div class="header-icons">
+                <a href="#"><img id="notify" src="images/Notification_Icon.png" alt="Notificaton Icon"></a>
+
+                <a href="#"><img id="profile" src="images/Profile_Icon.png" alt="Profile Icon"></a>
+            </div>
+        </div>
+    </header>
+    <main class="tabs-and-main-container">
+        <div class="tabs-container">
+            <div class="tabs">
+                <button id="Home" class="tabs-btn" onclick="preventDefault()">Home</button>
+                <button id="Time-Table" class="tabs-btn" onclick="preventDefault()">Time Table</button>
+                <button id="Teaching-Plan" class="tabs-btn" onclick="preventDefault()">Teaching Plan</button>
+                <button id="Practical-Plan" class="tabs-btn" onclick="preventDefault()">Practical Plan</button>
+                <button id="Course-Delivery" class="tabs-btn" onclick="preventDefault()">Course Delivery</button>
+                <button id="Practical-Delivery" class="tabs-btn" onclick="preventDefault()">Practical Delivery</button>
+                <button id="Mark-Attendance" class="tabs-btn" onclick="preventDefault()">Mark Attendance</button>
+                <button id="Leave" class="tabs-btn" onclick="preventDefault()">Leave</button>
+            </div>
+
+            <div class="bottoms-tabs">
+                
+                <div class="bottoms-tabs-option">
+                    <button id="Setting" class="tabs-btn" onclick="preventDefault()">Setting <i><img
+                                src="/images/Setting.png" alt="Setting Icon"></i></button>
+                </div>
+                
+                <div class="bottoms-tabs-option">
+                    <button id="LogOut" class="tabs-btn" onclick="preventDefault()"><i><img
+                        src="/images/LogOut.png" alt="Setting Icon"></i> LogOut </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="student-info">
+                <div class="student-info-cards">
+                    <h1>Total Students</h1>
+                    <h3 id="total-student-count">1000</h3>
+                </div>
+                <div class="student-info-cards">
+                    <h1>Present Students</h1>
+                    <h3 id="present-student-count">836</h3>
+                </div>
+                <div class="student-info-cards">
+                    <h1>Absent Students</h1>
+                    <h3 id="adsent-student-count">164</h3>
+                </div>
+            </div>
+            <div class="student-visuals">
+                <img src="/images/pie.png" alt="Students Info Pie Chart">
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
